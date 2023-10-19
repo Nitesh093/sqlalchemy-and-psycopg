@@ -1,0 +1,66 @@
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore local settings files
+settings/local.py
+
+# Ignore media files
+media/
+
+# Ignore static files (assumes you use collectstatic)
+static/
+
+# Ignore log files
+*.log
+
+# Ignore coverage report files
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore other generated files and directories
+__init__.py
+*.pyc
+*.pyo
+.DS_Store
+db.sqlite3
+node_modules/
+__pycache__/
+
+# Ignore secret settings files and keys
+*.secret
+*.key
+
+# Ignore environment files
+.env
+
+# Ignore database dump files
+*.dump
+
+# Ignore IDE and text editor-specific files
+.vscode/
+.idea/
+
+# Ignore compiled files (example: .pyc)
+*.pyc
+
+# Ignore package manager files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore operating system generated files
+Icon?
+ehthumbs.db
+Desktop.ini
+
+# Ignore backup files
+*~
+*.bak
+*.swp
